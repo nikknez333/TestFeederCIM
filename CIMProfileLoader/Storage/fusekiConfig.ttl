@@ -1,0 +1,9 @@
+@prefix dnr: <http://www.dotnetrdf.org/configuration#> .
+
+_:proc a dnr:SparqlQueryProcessor;
+  dnr:type "VDS.RDF.Query.GenericQueryProcessor";
+  dnr:storageProvider _:fuseki
+
+_:fuseki a dnr:StorageProvider ;
+  dnr:type "VDS.RDF.Storage.FusekiConnector" ;
+  dnr:server "http://localhost:3030/dataset/data" .

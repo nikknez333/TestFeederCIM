@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29318.209
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CIMProfileLoader", "CIMProfileLoader\CIMProfileLoader.csproj", "{0CB2EA84-9D33-4F28-B6B4-8FB5AC78DFE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StorageBenchmark", "StorageBenchmark\StorageBenchmark.csproj", "{148912AD-7FA7-40C7-9329-B05B601CF5C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CB2EA84-9D33-4F28-B6B4-8FB5AC78DFE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CB2EA84-9D33-4F28-B6B4-8FB5AC78DFE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CB2EA84-9D33-4F28-B6B4-8FB5AC78DFE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CB2EA84-9D33-4F28-B6B4-8FB5AC78DFE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{148912AD-7FA7-40C7-9329-B05B601CF5C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{148912AD-7FA7-40C7-9329-B05B601CF5C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{148912AD-7FA7-40C7-9329-B05B601CF5C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{148912AD-7FA7-40C7-9329-B05B601CF5C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E92BB6C2-33C5-439F-8A9B-3B2A5FE2A209}
+	EndGlobalSection
+EndGlobal

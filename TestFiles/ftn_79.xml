@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:cim="http://iec.ch/TC57/2010/CIM-schema-cim15#"
+	xmlns:ftn="http://www.ftnydro.com/CIM15/2010/extension#"
+	xml:base="http://iec.ch/TC57/2010/CIM-schema-cim15#">
+<!--Curve-->		
+	<cim:Curve rdf:ID="_45678998_CRV">
+		<cim:Curve.curveStyle>formula</cim:Curve.curveStyle>
+		<cim:Curve.xMultiplier>none</cim:Curve.xMultiplier>
+		<cim:Curve.xUnit>s</cim:Curve.xUnit>
+		<cim:Curve.y1Multiplier>m</cim:Curve.y1Multiplier>
+		<cim:Curve.y1Unit>A</cim:Curve.y1Unit>
+		<cim:Curve.y2Multiplier>none</cim:Curve.y2Multiplier>
+		<cim:Curve.y2Unit>V</cim:Curve.y2Unit>
+		<cim:Curve.y3Multiplier>none</cim:Curve.y3Multiplier>
+		<cim:Curve.y3Unit>none</cim:Curve.y3Unit>
+		<cim:IdentifiedObject.aliasName>VCC</cim:IdentifiedObject.aliasName>
+		<cim:IdentifiedObject.mRID>45678998_CRV</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.name>VoltageCurrentCurve</cim:IdentifiedObject.name>
+	</cim:Curve>
+	<cim:Curve rdf:ID="_719612131_CRV">
+		<cim:Curve.curveStyle>rampYValue</cim:Curve.curveStyle>
+		<cim:Curve.xMultiplier>none</cim:Curve.xMultiplier>
+		<cim:Curve.xUnit>s</cim:Curve.xUnit>
+		<cim:Curve.y1Multiplier>k</cim:Curve.y1Multiplier>
+		<cim:Curve.y1Unit>Wh</cim:Curve.y1Unit>
+		<cim:Curve.y2Multiplier>none</cim:Curve.y2Multiplier>
+		<cim:Curve.y2Unit>none</cim:Curve.y2Unit>
+		<cim:Curve.y3Multiplier>none</cim:Curve.y3Multiplier>
+		<cim:Curve.y3Unit>none</cim:Curve.y3Unit>
+		<cim:IdentifiedObject.aliasName>Cnsmp_graph</cim:IdentifiedObject.aliasName>
+		<cim:IdentifiedObject.mRID>71961213_CRV</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.name>Consumption</cim:IdentifiedObject.name>
+	</cim:Curve>
+<!--CurveData-->
+	<cim:CurveData rdf:ID="_2143667617_CD_CRV">
+		<cim:CurveData.Curve rdf:resource="#45678998_CRV"/>
+		<cim:CurveData.xvalue>0</cim:CurveData.xvalue>
+		<cim:CurveData.y1value>0</cim:CurveData.y1value>
+		<cim:CurveData.y2value>0</cim:CurveData.y2value>
+		<cim:CurveData.y3value>0</cim:CurveData.y3value>
+		<cim:IdentifiedObject.aliasName>VCC0sec</cim:IdentifiedObject.aliasName>
+		<cim:IdentifiedObject.mRID>2143667617_CD_CRV</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.name>VoltageCurrent0sec</cim:IdentifiedObject.name>
+	</cim:CurveData>
+	<cim:CurveData rdf:ID="_551366871_CD_CRV">
+		<cim:CurveData.Curve rdf:resource="#45678998_CRV"/>
+		<cim:CurveData.xvalue>2</cim:CurveData.xvalue>
+		<cim:CurveData.y1value>1.37</cim:CurveData.y1value>
+		<cim:CurveData.y2value>1.66</cim:CurveData.y2value>
+		<cim:CurveData.y3value>0</cim:CurveData.y3value>
+		<cim:IdentifiedObject.aliasName>VCC2sec</cim:IdentifiedObject.aliasName>
+		<cim:IdentifiedObject.mRID>551366871_CD_CRV</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.name>VoltageCurrent2sec</cim:IdentifiedObject.name>
+	</cim:CurveData>
+	<cim:CurveData rdf:ID="_445578135_CD_CRV">
+		<cim:CurveData.Curve rdf:resource="#45678998_CRV"/>
+		<cim:CurveData.xvalue>4</cim:CurveData.xvalue>
+		<cim:CurveData.y1value>2.46</cim:CurveData.y1value>
+		<cim:CurveData.y2value>2.91</cim:CurveData.y2value>
+		<cim:CurveData.y3value>0</cim:CurveData.y3value>
+		<cim:IdentifiedObject.aliasName>VCC4sec</cim:IdentifiedObject.aliasName>
+		<cim:IdentifiedObject.mRID>445578135_CD_CRV</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.name>VoltageCurrent4sec</cim:IdentifiedObject.name>
+	</cim:CurveData>
+	<cim:CurveData rdf:ID="_877436554_CD_CRV">
+		<cim:CurveData.Curve rdf:resource="#45678998_CRV"/>
+		<cim:CurveData.xvalue>6</cim:CurveData.xvalue>
+		<cim:CurveData.y1value>2.01</cim:CurveData.y1value>
+		<cim:CurveData.y2value>4.7</cim:CurveData.y2value>
+		<cim:CurveData.y3value>0</cim:CurveData.y3value>
+		<cim:IdentifiedObject.aliasName>VCC6sec</cim:IdentifiedObject.aliasName>
+		<cim:IdentifiedObject.mRID>877436554_CD_CRV</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.name>VoltageCurrent6sec</cim:IdentifiedObject.name>
+	</cim:CurveData>
+	<cim:CurveData rdf:ID="_911345667_CD_CRV">
+		<cim:CurveData.Curve rdf:resource="#45678998_CRV"/>
+		<cim:CurveData.xvalue>8</cim:CurveData.xvalue>
+		<cim:CurveData.y1value>1.44</cim:CurveData.y1value>
+		<cim:CurveData.y2value>3.11</cim:CurveData.y2value>
+		<cim:CurveData.y3value>0</cim:CurveData.y3value>
+		<cim:IdentifiedObject.aliasName>VCC8sec</cim:IdentifiedObject.aliasName>
+		<cim:IdentifiedObject.mRID>911345667_CD_CRV</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.name>VoltageCurrent8sec</cim:IdentifiedObject.name>
+	</cim:CurveData>
+	<cim:CurveData rdf:ID="_719612131_CD_CRV">
+		<cim:CurveData.Curve rdf:resource="#719612131_CRV"/>
+		<cim:CurveData.xvalue>0</cim:CurveData.xvalue>
+		<cim:CurveData.y1value>0</cim:CurveData.y1value>
+		<cim:CurveData.y2value>0</cim:CurveData.y2value>
+		<cim:CurveData.y3value>0</cim:CurveData.y3value>
+		<cim:IdentifiedObject.aliasName>Cnsmp_graph0sec</cim:IdentifiedObject.aliasName>
+		<cim:IdentifiedObject.mRID>719612131_CD_CRV</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.name>Consumption0sec</cim:IdentifiedObject.name>
+	</cim:CurveData>
+	<cim:CurveData rdf:ID="_422516847_CD_CRV">
+		<cim:CurveData.Curve rdf:resource="#719612131_CRV"/>
+		<cim:CurveData.xvalue>3600</cim:CurveData.xvalue>
+		<cim:CurveData.y1value>0.7</cim:CurveData.y1value>
+		<cim:CurveData.y2value>0</cim:CurveData.y2value>
+		<cim:CurveData.y3value>0</cim:CurveData.y3value>
+		<cim:IdentifiedObject.aliasName>Cnsmp_graph1h</cim:IdentifiedObject.aliasName>
+		<cim:IdentifiedObject.mRID>422516847_CD_CRV</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.name>Consumption1h</cim:IdentifiedObject.name>
+	</cim:CurveData>
+	<cim:CurveData rdf:ID="_877611449_CD_CRV">
+		<cim:CurveData.Curve rdf:resource="#719612131_CRV"/>
+		<cim:CurveData.xvalue>10800</cim:CurveData.xvalue>
+		<cim:CurveData.y1value>1.6</cim:CurveData.y1value>
+		<cim:CurveData.y2value>0</cim:CurveData.y2value>
+		<cim:CurveData.y3value>0</cim:CurveData.y3value>
+		<cim:IdentifiedObject.aliasName>Cnsmp_graph3h</cim:IdentifiedObject.aliasName>
+		<cim:IdentifiedObject.mRID>877611449_CD_CRV</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.name>Consumption3h</cim:IdentifiedObject.name>
+	</cim:CurveData>
+	<cim:CurveData rdf:ID="_741252336_CD_CRV">
+		<cim:CurveData.Curve rdf:resource="#719612131_CRV"/>
+		<cim:CurveData.xvalue>18000</cim:CurveData.xvalue>
+		<cim:CurveData.y1value>2.2</cim:CurveData.y1value>
+		<cim:CurveData.y2value>0</cim:CurveData.y2value>
+		<cim:CurveData.y3value>0</cim:CurveData.y3value>
+		<cim:IdentifiedObject.aliasName>Cnsmp_graph5h</cim:IdentifiedObject.aliasName>
+		<cim:IdentifiedObject.mRID>741252336_CD_CRV</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.name>Consumption5h</cim:IdentifiedObject.name>
+	</cim:CurveData>
+<!--IrregularIntervalSchedule-->
+	<cim:IrregularIntervalSchedule rdf:ID="_226547819_IIS">
+		<cim:BasicIntervalSchedule.startTime>2018-07-14-06:00</cim:BasicIntervalSchedule.startTime>
+		<cim:BasicIntervalSchedule.value1Multiplier>none</cim:BasicIntervalSchedule.value1Multiplier>
+		<cim:BasicIntervalSchedule.value1Unit>V</cim:BasicIntervalSchedule.value1Unit>
+		<cim:BasicIntervalSchedule.value2Multiplier>m</cim:BasicIntervalSchedule.value2Multiplier>
+		<cim:BasicIntervalSchedule.value2Unit>A</cim:BasicIntervalSchedule.value2Unit>
+		<cim:IdentifiedObject.aliasName>IIS1</cim:IdentifiedObject.aliasName>
+		<cim:IdentifiedObject.mRID>226547819_IIS</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.name>IrregularIntervalSchedule1</cim:IdentifiedObject.name>
+	</cim:IrregularIntervalSchedule>
+	<cim:IrregularIntervalSchedule rdf:ID="_554876991_IIS">
+		<cim:BasicIntervalSchedule.startTime>2018-07-01-11:00</cim:BasicIntervalSchedule.startTime>
+		<cim:BasicIntervalSchedule.value1Multiplier>k</cim:BasicIntervalSchedule.value1Multiplier>
+		<cim:BasicIntervalSchedule.value1Unit>Wh</cim:BasicIntervalSchedule.value1Unit>
+		<cim:BasicIntervalSchedule.value2Multiplier>none</cim:BasicIntervalSchedule.value2Multiplier>
+		<cim:BasicIntervalSchedule.value2Unit>none</cim:BasicIntervalSchedule.value2Unit>
+		<cim:IdentifiedObject.aliasName>IIS2</cim:IdentifiedObject.aliasName>
+		<cim:IdentifiedObject.mRID>554876991_IIS</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.name>IrregularIntervalSchedule2</cim:IdentifiedObject.name>
+	</cim:IrregularIntervalSchedule>
+<!--RegularIntervalSchedule-->
+	<cim:RegularIntervalSchedule rdf:ID="_541124333_RIS">
+		<cim:RegularIntervalSchedule.endTime>2018-09-14-11:00</cim:RegularIntervalSchedule.endTime>
+		<cim:RegularIntervalSchedule.timeStep>2</cim:RegularIntervalSchedule.timeStep>
+		<cim:BasicIntervalSchedule.startTime>2018-09-05-22:00</cim:BasicIntervalSchedule.startTime>
+		<cim:BasicIntervalSchedule.value1Multiplier>k</cim:BasicIntervalSchedule.value1Multiplier>
+		<cim:BasicIntervalSchedule.value1Unit>Wh</cim:BasicIntervalSchedule.value1Unit>
+		<cim:BasicIntervalSchedule.value2Multiplier>k</cim:BasicIntervalSchedule.value2Multiplier>
+		<cim:BasicIntervalSchedule.value2Unit>Wh</cim:BasicIntervalSchedule.value2Unit>
+		<cim:IdentifiedObject.aliasName>RIS1</cim:IdentifiedObject.aliasName>
+		<cim:IdentifiedObject.mRID>541124333_RIS</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.name>RegularIntervalSchedule1</cim:IdentifiedObject.name>
+	</cim:RegularIntervalSchedule>
+	<cim:RegularIntervalSchedule rdf:ID="_754113669_RIS">
+		<cim:RegularIntervalSchedule.endTime>2018-10-04-14:00</cim:RegularIntervalSchedule.endTime>
+		<cim:RegularIntervalSchedule.timeStep>4</cim:RegularIntervalSchedule.timeStep>
+		<cim:BasicIntervalSchedule.startTime>2018-10-01-17:00</cim:BasicIntervalSchedule.startTime>
+		<cim:BasicIntervalSchedule.value1Multiplier>m</cim:BasicIntervalSchedule.value1Multiplier>
+		<cim:BasicIntervalSchedule.value1Unit>A</cim:BasicIntervalSchedule.value1Unit>
+		<cim:BasicIntervalSchedule.value2Multiplier>none</cim:BasicIntervalSchedule.value2Multiplier>
+		<cim:BasicIntervalSchedule.value2Unit>V</cim:BasicIntervalSchedule.value2Unit>
+		<cim:IdentifiedObject.aliasName>RIS2</cim:IdentifiedObject.aliasName>
+		<cim:IdentifiedObject.mRID>754113669_RIS</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.name>RegularIntervalSchedule2</cim:IdentifiedObject.name>
+	</cim:RegularIntervalSchedule>
+<!--IrregularTimePoint-->
+	<cim:IrregularTimePoint rdf:ID="_114257448_ITP_IIS">
+		<cim:IrregularTimePoint.IntervalSchedule rdf:resource="#226547819_IIS"/>
+		<cim:IrregularTimePoint.time>1.9</cim:IrregularTimePoint.time>
+		<cim:IrregularTimePoint.value1>2.7</cim:IrregularTimePoint.value1>
+		<cim:IrregularTimePoint.value2>3.6</cim:IrregularTimePoint.value2>
+		<cim:IdentifiedObject.aliasName>ITP1</cim:IdentifiedObject.aliasName>
+		<cim:IdentifiedObject.mRID>114257448_ITP_IIS</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.name>IrregularTimePoint1</cim:IdentifiedObject.name>
+	</cim:IrregularTimePoint>
+	<cim:IrregularTimePoint rdf:ID="_334699711_ITP_IIS">
+		<cim:IrregularTimePoint.IntervalSchedule rdf:resource="#226547819_IIS"/>
+		<cim:IrregularTimePoint.time>2.2</cim:IrregularTimePoint.time>
+		<cim:IrregularTimePoint.value1>2.1</cim:IrregularTimePoint.value1>
+		<cim:IrregularTimePoint.value2>4.4</cim:IrregularTimePoint.value2>
+		<cim:IdentifiedObject.aliasName>ITP2</cim:IdentifiedObject.aliasName>
+		<cim:IdentifiedObject.mRID>334699711_ITP_IIS</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.name>IrregularTimePoint2</cim:IdentifiedObject.name>
+	</cim:IrregularTimePoint>
+	<cim:IrregularTimePoint rdf:ID="_819984441_ITP_IIS">
+		<cim:IrregularTimePoint.IntervalSchedule rdf:resource="#554876991_IIS"/>
+		<cim:IrregularTimePoint.time>2.7</cim:IrregularTimePoint.time>
+		<cim:IrregularTimePoint.value1>4.2</cim:IrregularTimePoint.value1>
+		<cim:IrregularTimePoint.value2>2.1</cim:IrregularTimePoint.value2>
+		<cim:IdentifiedObject.aliasName>ITP3</cim:IdentifiedObject.aliasName>
+		<cim:IdentifiedObject.mRID>819984441_ITP_IIS</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.name>IrregularTimePoint3</cim:IdentifiedObject.name>
+	</cim:IrregularTimePoint>
+	<cim:IrregularTimePoint rdf:ID="_777145998_ITP_IIS">
+		<cim:IrregularTimePoint.IntervalSchedule rdf:resource="#554876991_IIS"/>
+		<cim:IrregularTimePoint.time>3.5</cim:IrregularTimePoint.time>
+		<cim:IrregularTimePoint.value1>3.1</cim:IrregularTimePoint.value1>
+		<cim:IrregularTimePoint.value2>5.5</cim:IrregularTimePoint.value2>
+		<cim:IdentifiedObject.aliasName>ITP4</cim:IdentifiedObject.aliasName>
+		<cim:IdentifiedObject.mRID>777145998_ITP_IIS</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.name>IrregularTimePoint4</cim:IdentifiedObject.name>
+	</cim:IrregularTimePoint>
+<!--RegularTimePoint-->
+	<cim:RegularTimePoint rdf:ID="_116997443_RTP_RIS">
+		<cim:RegularTimePoint.IntervalSchedule rdf:resource="#541124333_RIS"/>
+		<cim:RegularTimePoint.sequenceNumber>1</cim:RegularTimePoint.sequenceNumber>
+		<cim:RegularTimePoint.value1>4.1</cim:RegularTimePoint.value1>
+		<cim:RegularTimePoint.value2>7.2</cim:RegularTimePoint.value2>
+		<cim:IdentifiedObject.aliasName>RTP1</cim:IdentifiedObject.aliasName>
+		<cim:IdentifiedObject.mRID>116997443_RTP_RIS</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.name>RegularTimePoint1</cim:IdentifiedObject.name>
+	</cim:RegularTimePoint>
+	<cim:RegularTimePoint rdf:ID="_778416334_RTP_RIS">
+		<cim:RegularTimePoint.IntervalSchedule rdf:resource="#541124333_RIS"/>
+		<cim:RegularTimePoint.sequenceNumber>2</cim:RegularTimePoint.sequenceNumber>
+		<cim:RegularTimePoint.value1>2.4</cim:RegularTimePoint.value1>
+		<cim:RegularTimePoint.value2>6.5</cim:RegularTimePoint.value2>
+		<cim:IdentifiedObject.aliasName>RTP2</cim:IdentifiedObject.aliasName>
+		<cim:IdentifiedObject.mRID>778416334_RTP_RIS</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.name>RegularTimePoint2</cim:IdentifiedObject.name>
+	</cim:RegularTimePoint>
+	<cim:RegularTimePoint rdf:ID="_223441678_RTP_RIS">
+		<cim:RegularTimePoint.IntervalSchedule rdf:resource="#754113669_RIS"/>
+		<cim:RegularTimePoint.sequenceNumber>3</cim:RegularTimePoint.sequenceNumber>
+		<cim:RegularTimePoint.value1>1.7</cim:RegularTimePoint.value1>
+		<cim:RegularTimePoint.value2>5.5</cim:RegularTimePoint.value2>
+		<cim:IdentifiedObject.aliasName>RTP3</cim:IdentifiedObject.aliasName>
+		<cim:IdentifiedObject.mRID>223441678_RTP_RIS</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.name>RegularTimePoint3</cim:IdentifiedObject.name>
+	</cim:RegularTimePoint>
+	<cim:RegularTimePoint rdf:ID="_778449661_RTP_RIS">
+		<cim:RegularTimePoint.IntervalSchedule rdf:resource="#754113669_RIS"/>
+		<cim:RegularTimePoint.sequenceNumber>4</cim:RegularTimePoint.sequenceNumber>
+		<cim:RegularTimePoint.value1>7.6</cim:RegularTimePoint.value1>
+		<cim:RegularTimePoint.value2>6.7</cim:RegularTimePoint.value2>
+		<cim:IdentifiedObject.aliasName>RTP4</cim:IdentifiedObject.aliasName>
+		<cim:IdentifiedObject.mRID>778449661_RTP_RIS</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.name>RegularTimePoint4</cim:IdentifiedObject.name>
+	</cim:RegularTimePoint>
+<!--Disconnector-->
+	<cim:Disconnector rdf:ID="_113664557_DSC">
+		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
+		<cim:Switch.ratedCurrent>4.8</cim:Switch.ratedCurrent>
+		<cim:Switch.retained>true</cim:Switch.retained>
+		<cim:Switch.switchOnCount>3</cim:Switch.switchOnCount>
+		<cim:Switch.switchOnDate>2018-10-04-14:11</cim:Switch.switchOnDate>
+		<cim:Equipment.aggregate>true</cim:Equipment.aggregate>
+		<cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
+		<cim:PowerSystemResource.OutageSchedule rdf:resource="#353891757_OUT"/>
+		<cim:IdentifiedObject.aliasName>DSC1</cim:IdentifiedObject.aliasName>
+		<cim:IdentifiedObject.mRID>113664557_DSC</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.name>Disconnector1</cim:IdentifiedObject.name>
+	</cim:Disconnector>
+<!--ProtectedSwitch-->
+	<cim:ProtectedSwitch rdf:ID="_877442119_PSW">
+		<cim:Switch.normalOpen>true</cim:Switch.normalOpen>
+		<cim:Switch.ratedCurrent>3.45</cim:Switch.ratedCurrent>
+		<cim:Switch.retained>false</cim:Switch.retained>
+		<cim:Switch.switchOnCount>11</cim:Switch.switchOnCount>
+		<cim:Switch.switchOnDate>2018-09-16-12:34</cim:Switch.switchOnDate>
+		<cim:Equipment.aggregate>true</cim:Equipment.aggregate>
+		<cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
+		<cim:PowerSystemResource.OutageSchedule rdf:resource="#668741258_OUT"/>
+		<cim:IdentifiedObject.aliasName>PSW1</cim:IdentifiedObject.aliasName>
+		<cim:IdentifiedObject.mRID>877442119_PSW</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.name>ProtectedSwitch1</cim:IdentifiedObject.name>
+	</cim:ProtectedSwitch>
+	<cim:ProtectedSwitch rdf:ID="_617442119_PSW">
+		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
+		<cim:Switch.ratedCurrent>1.15</cim:Switch.ratedCurrent>
+		<cim:Switch.retained>false</cim:Switch.retained>
+		<cim:Switch.switchOnCount>17</cim:Switch.switchOnCount>
+		<cim:Switch.switchOnDate>2018-09-25-12:34</cim:Switch.switchOnDate>
+		<cim:Equipment.aggregate>true</cim:Equipment.aggregate>
+		<cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
+		<cim:PowerSystemResource.OutageSchedule rdf:resource="#741159357_OUT"/>
+		<cim:IdentifiedObject.aliasName>PSW1</cim:IdentifiedObject.aliasName>
+		<cim:IdentifiedObject.mRID>617442119_PSW</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.name>ProtectedSwitch2</cim:IdentifiedObject.name>
+	</cim:ProtectedSwitch>
+<!--OutageSchedule-->
+	<cim:OutageSchedule rdf:ID="_668741258_OUT">		
+		<cim:BasicIntervalSchedule.startTime>2022-10-7-16:28</cim:BasicIntervalSchedule.startTime>
+		<cim:BasicIntervalSchedule.value1Multiplier>m</cim:BasicIntervalSchedule.value1Multiplier>
+		<cim:BasicIntervalSchedule.value1Unit>A</cim:BasicIntervalSchedule.value1Unit>
+		<cim:BasicIntervalSchedule.value2Multiplier>none</cim:BasicIntervalSchedule.value2Multiplier>
+		<cim:BasicIntervalSchedule.value2Unit>V</cim:BasicIntervalSchedule.value2Unit>
+		<cim:IdentifiedObject.aliasName>OUTSKD1</cim:IdentifiedObject.aliasName>
+		<cim:IdentifiedObject.mRID>668741258_OUT</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.name>OutageSchedule1</cim:IdentifiedObject.name>
+	</cim:OutageSchedule>
+	<cim:OutageSchedule rdf:ID="_741159357_OUT">		
+		<cim:BasicIntervalSchedule.startTime>2022-10-14-13:57</cim:BasicIntervalSchedule.startTime>
+		<cim:BasicIntervalSchedule.value1Multiplier>k</cim:BasicIntervalSchedule.value1Multiplier>
+		<cim:BasicIntervalSchedule.value1Unit>Wh</cim:BasicIntervalSchedule.value1Unit>
+		<cim:BasicIntervalSchedule.value2Multiplier>none</cim:BasicIntervalSchedule.value2Multiplier>
+		<cim:BasicIntervalSchedule.value2Unit>none</cim:BasicIntervalSchedule.value2Unit>
+		<cim:IdentifiedObject.aliasName>OUTSKD2</cim:IdentifiedObject.aliasName>
+		<cim:IdentifiedObject.mRID>741159357_OUT</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.name>OutageSchedule2</cim:IdentifiedObject.name>
+	</cim:OutageSchedule>
+	<cim:OutageSchedule rdf:ID="_353891757_OUT">		
+		<cim:BasicIntervalSchedule.startTime>2022-09-24-18:30</cim:BasicIntervalSchedule.startTime>
+		<cim:BasicIntervalSchedule.value1Multiplier>m</cim:BasicIntervalSchedule.value1Multiplier>
+		<cim:BasicIntervalSchedule.value1Unit>A</cim:BasicIntervalSchedule.value1Unit>
+		<cim:BasicIntervalSchedule.value2Multiplier>none</cim:BasicIntervalSchedule.value2Multiplier>
+		<cim:BasicIntervalSchedule.value2Unit>V</cim:BasicIntervalSchedule.value2Unit>
+		<cim:IdentifiedObject.aliasName>OUTSKD3</cim:IdentifiedObject.aliasName>
+		<cim:IdentifiedObject.mRID>353891757_OUT</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.name>OutageSchedule3</cim:IdentifiedObject.name>
+	</cim:OutageSchedule>
+</rdf:RDF>
